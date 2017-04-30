@@ -1,0 +1,28 @@
+{
+  "name": "andreisitaru",
+  "version": "1.0.0",
+  "description": "my cv website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asitaru/cv.git"
+  },
+  "keywords": [
+    "cv",
+    "andrei",
+    "sitaru"
+  ],
+  "author": "Andrei Sitaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asitaru/cv/issues"
+  },
+  "homepage": "https://andreisitaru.herokuapp.com/",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
