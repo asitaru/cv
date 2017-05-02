@@ -31,6 +31,7 @@ app.post('/contact', function(req, res){
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
             console.log(error);
+            console.log(process.env.PASS);
             res.redirect('/');
         } else {
             console.log('Message Sent: ' + info.response);
