@@ -23,6 +23,8 @@
   },
   "homepage": "https://andreisitaru.herokuapp.com/",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemailer": "^4.0.1"
   }
 }
